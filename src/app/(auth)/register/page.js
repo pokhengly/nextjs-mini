@@ -1,7 +1,7 @@
 "use client";
 
 import {useForm} from "react-hook-form";
-import {registerUser} from "@/services/registerService";
+import {registerUser} from "@/services/auth.service";
 import Image from "next/image";
 import {useRouter} from "next/navigation";
 
