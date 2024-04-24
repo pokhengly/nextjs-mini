@@ -13,6 +13,7 @@ export default function RootLayout({children}) {
         <main className="h-full flex">
             <div className="w-[20%]">
                 <SidebarComponent/>
+
             </div>
             <div className="w-[80%] ml-5">
                 <NavbarComponent/>
