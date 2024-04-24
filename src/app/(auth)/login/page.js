@@ -21,8 +21,6 @@ function LoginPage() {
             ...newUser,
         })
 
-        const login = await loginService(newUser);
-        console.log("Login : ", login);
     }
 
     return (
@@ -55,6 +53,7 @@ function LoginPage() {
                                     </button>
                                     <div className="mt-2">
                                         <div className="flex gap-2 pt-5">
+                                            {/* eslint-disable-next-line react/no-unescaped-entities */}
                                             <p className="text-gray-600 text-sm">Don't have an account?</p>
                                             <a className="text-blue-700  text-sm underline" href="/register">Register
                                                 here</a>
