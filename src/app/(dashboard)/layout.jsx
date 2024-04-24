@@ -18,6 +18,7 @@ export default function RootLayout({children}) {
                 <div className="w-full ml-10">
                     <NavbarComponent/>
                     <TodoCardComponent/>
+
                 </div>
             </main>
 
